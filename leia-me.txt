@@ -1,0 +1,14 @@
+Neste pacote há 3 projetos:
+WebApiTesteFull - WebApi que funciona recebendo requisições via GET e retornando objetos;
+Visualizador de Operações - Aplicação desktop feita com windows.form que exibi a massa obitida via WepApi.
+geradorDeMassa - projeto simples, com uma clase e uma função que gera aleatoriamente os 20000 registros e os salva em json, não é necessário utilizar esse projeto para visualizar as expecificações do teste, já há um json nos arquivo da WebApi. Disponibilizado esse projeto, apenas para caso deseje verificar como foi gerado a massa.
+
+Como testar:
+Abrir o projeto WebApi no visual studio e rodar(vai abrir uma página do navegador)
+Abrir o projeto Visualizador de Operações no visual studio e rodar, será apresentada a tela em que será possível realizar as ações.
+
+Ajustes que podem vir a ser necessários:
+Caso a WebApi esteja rodando em uma porta diferente da porta 44375, será necesário ajustar as strings de conexão no arquivo Services\OperacaoServices.cs do projeto Visualizador de Operações.
+Foram utilizadas biblioteca para o trabalho com json e exportação para excel, acredito que elas já ficam presentes na pasta packages, mas caso encontre algum erro de falta de referência pff me chame para vermos juntos.
+
+É isso :)
