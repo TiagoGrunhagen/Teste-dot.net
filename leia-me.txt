@@ -6,6 +6,8 @@ geradorDeMassa - projeto simples, com uma clase e uma função que gera aleatori
 Como testar:
 Abrir o projeto WebApi no visual studio e rodar(vai abrir uma página do navegador)
 Abrir o projeto Visualizador de Operações no visual studio e rodar, será apresentada a tela em que será possível realizar as ações.
+Os arquivos csv são salvos na pasta "Visualizador de Operações\bin\Debug"
+
 
 Ajustes que podem vir a ser necessários:
 Caso a WebApi esteja rodando em uma porta diferente da porta 44375, será necesário ajustar as strings de conexão no arquivo Services\OperacaoServices.cs do projeto Visualizador de Operações.
